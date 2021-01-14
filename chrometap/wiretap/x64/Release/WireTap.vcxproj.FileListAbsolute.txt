@@ -1,0 +1,3 @@
+Z:\tools\ChromeTap\WireTap\x64\Release\WireTap.dll
+Y:\tools\ChromeTap\WireTap\x64\Release\WireTap.dll
+Y:\chrometap\wiretap\x64\Release\WireTap.dll

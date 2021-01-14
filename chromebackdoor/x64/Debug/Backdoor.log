@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+Z:\tools\Backdoor\dllmain.cpp(9,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\tools\Backdoor\dllmain.cpp(13,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\tools\Backdoor\dllmain.cpp(56,18): warning C4101: 'len': unreferenced local variable
+Z:\tools\Backdoor\dllmain.cpp(52,11): warning C4101: 'i': unreferenced local variable
+Z:\tools\Backdoor\dllmain.cpp(192,9): warning C4101: 'hThread': unreferenced local variable
+Z:\tools\Backdoor\dllmain.cpp(191,11): warning C4101: 'dwTid': unreferenced local variable
+  Backdoor.vcxproj -> Z:\tools\Backdoor\x64\Debug\Backdoor.dll

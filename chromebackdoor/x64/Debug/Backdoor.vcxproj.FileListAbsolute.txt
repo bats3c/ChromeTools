@@ -1,0 +1,2 @@
+Z:\tools\Backdoor\x64\Debug\Backdoor.dll
+Z:\tools\Backdoor\x64\Debug\Backdoor.pdb

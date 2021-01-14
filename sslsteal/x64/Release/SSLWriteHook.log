@@ -1,0 +1,10 @@
+﻿  dllmain.cpp
+Z:\tools\ssl_write_dumper\SSLWriteHook\dllmain.cpp(102,27): warning C4477: 'sprintf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'LPVOID'
+Z:\tools\ssl_write_dumper\SSLWriteHook\dllmain.cpp(73,8): warning C4101: 'oldProtect': unreferenced local variable
+Z:\tools\ssl_write_dumper\SSLWriteHook\dllmain.cpp(73,20): warning C4101: 'oldOldProtect': unreferenced local variable
+  Generating code
+  Finished generating code
+  2 of 12 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  SSLWriteHook.vcxproj -> Z:\tools\ssl_write_dumper\SSLWriteHook\x64\Release\SSLWriteHook.dll

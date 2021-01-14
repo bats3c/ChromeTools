@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+Y:\chrometap\wiretap\dllmain.cpp(5,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Y:\chrometap\wiretap\dllmain.cpp(9,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Y:\chrometap\wiretap\dllmain.cpp(173,9): warning C4101: 'hThread': unreferenced local variable
+Y:\chrometap\wiretap\dllmain.cpp(172,11): warning C4101: 'dwTid': unreferenced local variable
+  Generating code
+  Finished generating code
+detours.x86.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.x86.lib(detours.obj)' or at 'Y:\chrometap\wiretap\Release\detours.pdb'; linking object as if no debug info
+detours.x86.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.x86.lib(modules.obj)' or at 'Y:\chrometap\wiretap\Release\detours.pdb'; linking object as if no debug info
+detours.x86.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.x86.lib(disasm.obj)' or at 'Y:\chrometap\wiretap\Release\detours.pdb'; linking object as if no debug info
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  WireTap.vcxproj -> Y:\chrometap\wiretap\Release\WireTap.dll

