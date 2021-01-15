@@ -1,5 +1,7 @@
 # ChromeTools
 
+https://www.mdsec.co.uk/2021/01/breaking-the-browser-a-tale-of-ipc-credentials-and-backdoors/
+
 Tools to abuse chrome
 
 - ChromeTap
